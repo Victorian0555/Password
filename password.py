@@ -19,7 +19,7 @@ if choice_num_chr:
     chars += nums
 
 if choice <= 0:
-    print("Password length should be greater than 0")
+    print("Длина пароля должна быть больше 0")
     exit()
 
 for _ in range(choice):
